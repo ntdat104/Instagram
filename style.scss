@@ -71,6 +71,11 @@
 
       a {
         margin-left: 22px;
+        img{
+          width: 22px;
+          height: 22px;
+          border-radius: 50%;
+        }
       }
     }
   }
@@ -224,7 +229,8 @@
 
       &__fixed {
         position: fixed;
-
+        width: 293px;
+        height: 497px;
         &__profile {
           margin-bottom: 10px;
           margin-top: 18px;

@@ -1,7 +1,13 @@
+$border-color: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.root{
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container {
@@ -12,7 +18,7 @@
 
 .header {
   background-color: #ffffff;
-  border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-bottom: $border-color;
   position: fixed;
   width: 100%;
   z-index: 1;
